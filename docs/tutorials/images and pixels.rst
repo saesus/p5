@@ -28,9 +28,10 @@ In addition to user-defined objects (such as Ball), Processing has a bunch of ha
 	img = None # Declare a variable of type PImage
 
 	def setup():
+		global img
 		size(320,240)
 		# Make a new instance of a PImage by loading an image file
-		img = loadImage("mysummervacation.jpg")
+		img = load_image("mysummervacation.jpg")
 
 	def draw():
 		background(0)
